@@ -42,6 +42,7 @@ public class AppBaseTest {
 	TestUtils utils;
 	URL url;
 	
+	//constructor added
 	public AppBaseTest() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
