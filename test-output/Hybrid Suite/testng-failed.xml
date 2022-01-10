@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Hybrid Suite]">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="AmazonWeb(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Any Device Name"/>
+    <classes>
+      <class name="com.qa.webtests.AmazonWebTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyAmazonLogoTest"/>
+          <include name="afterTest"/>
+          <include name="scrollToBottomTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="searchItemsandVerifyTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.webtests.AmazonWebTest -->
+    </classes>
+  </test> <!-- AmazonWeb(failed) -->
+</suite> <!-- Failed suite [Hybrid Suite] -->

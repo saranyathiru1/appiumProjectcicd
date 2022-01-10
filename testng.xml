@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="2" name="Suite">
+
+<listeners>
+<listener class-name="com.qa.listeners.TestListener"/>
+<listener class-name="com.qa.listeners.ExtentReporterNG"/>
+</listeners>
+
+ <test name="Test">
+
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="Any Device Name"/>
+    <parameter name="browserName" value="Chrome"/>
+  
+
+ <classes>
+  <class name="com.qa.webtests.AmazonWebTest"/>
+  </classes>
+  </test> 
+  
+   <test name="Test1">
+
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="Any Device Name"/>
+  
+
+ <classes>
+   <class name="com.qa.tests.ApiDemoTest"/>
+  </classes>
+  </test> 
+ 
+  
+  
+  
+
+  <!-- Test -->
+</suite> <!-- Suite -->

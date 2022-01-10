@@ -1,0 +1,42 @@
+[INFO ] 2022-01-10 19:21:37.147 com.qa.WebBaseTest:66 - Appium server started
+[INFO ] 2022-01-10 19:21:51.313 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-10 19:21:51.630 com.qa.pages.WebMainPage:25 - Check if amazon logo is displayed
+[ERROR] 2022-01-10 19:21:51.665 com.qa.WebBaseTest:129 - Element not found
+[ERROR] 2022-01-10 19:21:51.669 com.qa.tests.ApiDemoTest:68 - Error in Amazon logo test
+[INFO ] 2022-01-10 19:21:51.675 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-10 19:21:51.678 com.qa.pages.WebMainPage:31 - Enter books value in search bar
+[ERROR] 2022-01-10 19:21:51.679 com.qa.WebBaseTest:129 - Element not found
+[ERROR] 2022-01-10 19:21:51.679 com.qa.WebBaseTest:162 - Unable to perform senkeys for element
+[ERROR] 2022-01-10 19:21:51.679 com.qa.WebBaseTest:129 - Element not found
+[ERROR] 2022-01-10 19:21:51.679 com.qa.WebBaseTest:140 - click action not performed
+[INFO ] 2022-01-10 19:21:51.680 com.qa.pages.WebMainPage:40 - Click on search button
+[INFO ] 2022-01-10 19:21:54.688 com.qa.pages.WebBooksPage:28 - Checking Books title is present or not
+[ERROR] 2022-01-10 19:21:54.690 com.qa.tests.ApiDemoTest:87 - Error in search and verify title test
+[INFO ] 2022-01-10 19:21:54.699 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-10 19:21:54.711 com.qa.pages.WebBooksPage:34 - Scroll to the bottom of page
+[ERROR] 2022-01-10 19:21:54.745 com.qa.WebBaseTest:177 - Unable to perform move to element action
+[INFO ] 2022-01-10 19:21:54.745 com.qa.pages.WebBooksPage:41 - Scroll to the bottom of page
+[ERROR] 2022-01-10 19:21:54.746 com.qa.WebBaseTest:129 - Element not found
+[ERROR] 2022-01-10 19:21:54.747 com.qa.tests.ApiDemoTest:100 - Error in scroll to bottom test
+[INFO ] 2022-01-10 19:22:04.455 com.qa.WebBaseTest:83 - Initializing driver for native app
+[INFO ] 2022-01-10 19:22:04.456 com.qa.WebBaseTest:84 - Opening Api Demo app
+[INFO ] 2022-01-10 19:22:04.457 com.qa.tests.ApiDemoTest:49 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-10 19:22:07.902 com.qa.pages.MainPage:25 - Clicking on Views
+[INFO ] 2022-01-10 19:22:15.217 com.qa.utils.TestUtils:45 - Scrolling down to :WebView3
+[INFO ] 2022-01-10 19:22:15.871 com.qa.utils.TestUtils:52 - Clicking on android back button
+[INFO ] 2022-01-10 19:22:15.876 com.qa.tests.ApiDemoTest:49 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-10 19:22:18.260 com.qa.pages.MainPage:25 - Clicking on Views
+[INFO ] 2022-01-10 19:22:19.660 com.qa.pages.SecondPage:28 - Click on Drag and Drop option
+[INFO ] 2022-01-10 19:22:19.707 com.qa.pages.DragAndDropPage:29 - Identify element for first circle
+[INFO ] 2022-01-10 19:22:19.814 com.qa.pages.DragAndDropPage:37 - Identify element for second circle
+[INFO ] 2022-01-10 19:22:21.978 com.qa.utils.TestUtils:75 - Perform long press action on the element:Located by By.chained({By.id: drag_dot_1})
+[INFO ] 2022-01-10 19:22:23.963 com.qa.utils.TestUtils:82 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-10 19:22:25.483 com.qa.utils.TestUtils:52 - Clicking on android back button
+[INFO ] 2022-01-10 19:22:25.487 com.qa.tests.ApiDemoTest:49 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-10 19:22:26.037 com.qa.pages.SecondPage:34 - find element for Expandable lists option
+[INFO ] 2022-01-10 19:22:27.617 com.qa.utils.TestUtils:58 - Perform touch action on the element:Located by By.chained({By.AccessibilityId: Expandable Lists})
+[INFO ] 2022-01-10 19:22:28.687 com.qa.pages.CustomAdapterPage:28 - Clicking on Custom Adapter option
+[INFO ] 2022-01-10 19:22:28.687 com.qa.pages.CustomAdapterPage:33 - Clicking on Custom Adapter option
+[INFO ] 2022-01-10 19:22:32.476 com.qa.utils.TestUtils:66 - Perform long press action on the element:Located by By.chained({By.xpath: //android.widget.TextView[@text='People Names']})
+[INFO ] 2022-01-10 19:22:32.477 com.qa.pages.CustomAdapterPage:40 - Checking Sample Menu text
+[INFO ] 2022-01-10 19:22:33.736 com.qa.WebBaseTest:72 - Appium server stopped

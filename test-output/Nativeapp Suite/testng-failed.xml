@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Nativeapp Suite]">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" verbose="2" name="ApiDemo(failed)">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Any Device Name"/>
+    <classes>
+      <class name="com.qa.tests.ApiDemoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="dragandDropTest"/>
+          <include name="scrollTest"/>
+          <include name="beforeTest"/>
+          <include name="touchgesturesTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.ApiDemoTest -->
+    </classes>
+  </test> <!-- ApiDemo(failed) -->
+</suite> <!-- Failed suite [Nativeapp Suite] -->
