@@ -1,0 +1,37 @@
+[INFO ] 2022-01-14 17:46:05.452 com.qa.WebBaseTest:73 - Appium server started
+[INFO ] 2022-01-14 17:46:15.608 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-14 17:46:15.871 com.qa.pages.WebMainPage:25 - Check if amazon logo is displayed
+[ERROR] 2022-01-14 17:46:15.886 com.qa.WebBaseTest:138 - Element not found
+[ERROR] 2022-01-14 17:46:15.888 com.qa.tests.ApiDemoTest:68 - Error in Amazon logo test
+[INFO ] 2022-01-14 17:46:15.898 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-14 17:46:15.904 com.qa.pages.WebMainPage:31 - Enter books value in search bar
+[ERROR] 2022-01-14 17:46:15.904 com.qa.WebBaseTest:138 - Element not found
+[ERROR] 2022-01-14 17:46:15.904 com.qa.WebBaseTest:171 - Unable to perform senkeys for element
+[ERROR] 2022-01-14 17:46:15.905 com.qa.WebBaseTest:138 - Element not found
+[ERROR] 2022-01-14 17:46:15.905 com.qa.WebBaseTest:149 - click action not performed
+[INFO ] 2022-01-14 17:46:15.905 com.qa.pages.WebMainPage:40 - Click on search button
+[INFO ] 2022-01-14 17:46:18.921 com.qa.pages.WebBooksPage:28 - Checking Books title is present or not
+[ERROR] 2022-01-14 17:46:18.926 com.qa.tests.ApiDemoTest:87 - Error in search and verify title test
+[INFO ] 2022-01-14 17:46:18.934 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-14 17:46:18.945 com.qa.pages.WebBooksPage:34 - Scroll to the bottom of page
+[ERROR] 2022-01-14 17:46:18.964 com.qa.WebBaseTest:190 - Unable to perform move to element action
+[INFO ] 2022-01-14 17:46:18.964 com.qa.pages.WebBooksPage:41 - Scroll to the bottom of page
+[ERROR] 2022-01-14 17:46:18.965 com.qa.WebBaseTest:138 - Element not found
+[ERROR] 2022-01-14 17:46:18.965 com.qa.tests.ApiDemoTest:100 - Error in scroll to bottom test
+[INFO ] 2022-01-14 17:46:26.679 com.qa.WebBaseTest:142 - Initializing driver for native app
+[INFO ] 2022-01-14 17:46:26.681 com.qa.WebBaseTest:143 - Opening Api Demo app
+[INFO ] 2022-01-14 17:46:26.685 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-14 17:46:28.875 com.qa.pages.MainPage:25 - Clicking on Views
+[INFO ] 2022-01-14 17:46:36.372 com.qa.utils.TestUtils:48 - Scrolling down to :WebView3
+[INFO ] 2022-01-14 17:46:37.066 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-14 17:46:37.323 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-14 17:46:39.437 com.qa.pages.MainPage:25 - Clicking on Views
+[INFO ] 2022-01-14 17:46:40.936 com.qa.pages.SecondPage:28 - Click on Drag and Drop option
+[INFO ] 2022-01-14 17:46:41.025 com.qa.pages.DragAndDropPage:29 - Identify element for first circle
+[INFO ] 2022-01-14 17:46:41.026 com.qa.pages.DragAndDropPage:37 - Identify element for second circle
+[INFO ] 2022-01-14 17:46:43.164 com.qa.utils.TestUtils:78 - Perform long press action on the element:Located by By.chained({By.id: drag_dot_1})
+[INFO ] 2022-01-14 17:46:45.223 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-14 17:46:46.662 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-14 17:46:47.256 com.qa.pages.SecondPage:34 - find element for Expandable lists option
+[ERROR] 2022-01-14 17:46:49.562 com.qa.tests.ApiDemoTest:111 - Error in touch gestures test
+[INFO ] 2022-01-14 17:46:50.545 com.qa.WebBaseTest:79 - Appium server stopped

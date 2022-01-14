@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[This is sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Admin\Downloads\AppiumProject\AppiumProject\Screenshots\Android_\Any Device Name\14-Jan-2022__08_15_03PM\ApiDemoTest\dragandDropTest.png'> <img src='C:\Users\Admin\Downloads\AppiumProject\AppiumProject\Screenshots\Android_\Any Device Name\14-Jan-2022__08_15_03PM\ApiDemoTest\dragandDropTest.png' height='400' width='400'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="57080" started-at="2022-01-10T19:03:05 IST" finished-at="2022-01-10T19:04:02 IST">
+  <suite name="Suite" duration-ms="44761" started-at="2022-01-14T20:14:21 IST" finished-at="2022-01-14T20:15:06 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23475" started-at="2022-01-10T19:03:05 IST" finished-at="2022-01-10T19:03:28 IST">
+    <test name="Test" duration-ms="15243" started-at="2022-01-14T20:14:21 IST" finished-at="2022-01-14T20:14:36 IST">
       <class name="com.qa.webtests.AmazonWebTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="beforeTest" is-config="true" duration-ms="20026" started-at="2022-01-10T19:03:05 IST" finished-at="2022-01-10T19:03:25 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="beforeTest" is-config="true" duration-ms="11870" started-at="2022-01-14T20:14:21 IST" finished-at="2022-01-14T20:14:33 IST">
           <params>
             <param index="0">
               <value>
@@ -28,35 +34,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="beforeMethod" is-config="true" duration-ms="229" started-at="2022-01-10T19:03:25 IST" finished-at="2022-01-10T19:03:25 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="beforeMethod" is-config="true" duration-ms="228" started-at="2022-01-14T20:14:33 IST" finished-at="2022-01-14T20:14:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyAmazonLogoTest()[pri:1, instance:com.qa.webtests.AmazonWebTest@957e06]" name="verifyAmazonLogoTest" duration-ms="36" started-at="2022-01-10T19:03:25 IST" finished-at="2022-01-10T19:03:25 IST">
+        <test-method status="PASS" signature="verifyAmazonLogoTest()[pri:1, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="verifyAmazonLogoTest" duration-ms="26" started-at="2022-01-14T20:14:33 IST" finished-at="2022-01-14T20:14:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAmazonLogoTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-01-10T19:03:25 IST" finished-at="2022-01-10T19:03:25 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-01-14T20:14:33 IST" finished-at="2022-01-14T20:14:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="searchItemsandVerifyTitleTest()[pri:2, instance:com.qa.webtests.AmazonWebTest@957e06]" name="searchItemsandVerifyTitleTest" duration-ms="3036" started-at="2022-01-10T19:03:25 IST" finished-at="2022-01-10T19:03:28 IST">
+        <test-method status="PASS" signature="searchItemsandVerifyTitleTest()[pri:2, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="searchItemsandVerifyTitleTest" duration-ms="3017" started-at="2022-01-14T20:14:33 IST" finished-at="2022-01-14T20:14:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsandVerifyTitleTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-01-10T19:03:28 IST" finished-at="2022-01-10T19:03:28 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2022-01-14T20:14:36 IST" finished-at="2022-01-14T20:14:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="scrollToBottomTest()[pri:3, instance:com.qa.webtests.AmazonWebTest@957e06]" name="scrollToBottomTest" duration-ms="28" started-at="2022-01-10T19:03:28 IST" finished-at="2022-01-10T19:03:28 IST">
+        <test-method status="PASS" signature="scrollToBottomTest()[pri:3, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="scrollToBottomTest" duration-ms="22" started-at="2022-01-14T20:14:36 IST" finished-at="2022-01-14T20:14:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToBottomTest -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-01-10T19:03:28 IST" finished-at="2022-01-10T19:03:28 IST">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-14T20:14:36 IST" finished-at="2022-01-14T20:14:36 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.qa.WebBaseTest.tearDown(WebBaseTest.java:187)
+at com.qa.WebBaseTest.tearDown(WebBaseTest.java:201)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,9 +95,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.webtests.AmazonWebTest -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="33514" started-at="2022-01-10T19:03:29 IST" finished-at="2022-01-10T19:04:02 IST">
+    <test name="Test1" duration-ms="29476" started-at="2022-01-14T20:14:36 IST" finished-at="2022-01-14T20:15:06 IST">
       <class name="com.qa.tests.ApiDemoTest">
-        <test-method status="PASS" signature="beforesecondTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="beforesecondTest" is-config="true" duration-ms="9838" started-at="2022-01-10T19:03:29 IST" finished-at="2022-01-10T19:03:38 IST">
+        <test-method status="PASS" signature="beforesecondTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="beforesecondTest" is-config="true" duration-ms="8662" started-at="2022-01-14T20:14:36 IST" finished-at="2022-01-14T20:14:45 IST">
           <params>
             <param index="0">
               <value>
@@ -107,53 +113,123 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesecondTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="beforeMethod" is-config="true" duration-ms="328" started-at="2022-01-10T19:03:38 IST" finished-at="2022-01-10T19:03:39 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="beforeMethod" is-config="true" duration-ms="279" started-at="2022-01-14T20:14:45 IST" finished-at="2022-01-14T20:14:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="scrollTest()[pri:1, instance:com.qa.tests.ApiDemoTest@229c6181]" name="scrollTest" duration-ms="8491" started-at="2022-01-10T19:03:39 IST" finished-at="2022-01-10T19:03:47 IST">
+        <test-method status="PASS" signature="scrollTest()[pri:1, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="scrollTest" duration-ms="9187" started-at="2022-01-14T20:14:45 IST" finished-at="2022-01-14T20:14:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-10T19:03:47 IST" finished-at="2022-01-10T19:03:47 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="afterMethod" is-config="true" duration-ms="196" started-at="2022-01-14T20:14:55 IST" finished-at="2022-01-14T20:14:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollTest status=SUCCESS method=ApiDemoTest.scrollTest()[pri:1, instance:com.qa.tests.ApiDemoTest@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="beforeMethod" is-config="true" duration-ms="174" started-at="2022-01-10T19:03:47 IST" finished-at="2022-01-10T19:03:47 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-14T20:14:55 IST" finished-at="2022-01-14T20:14:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="beforeMethod" is-config="true" duration-ms="340" started-at="2022-01-14T20:14:55 IST" finished-at="2022-01-14T20:14:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="dragandDropTest()[pri:2, instance:com.qa.tests.ApiDemoTest@229c6181]" name="dragandDropTest" duration-ms="7360" started-at="2022-01-10T19:03:47 IST" finished-at="2022-01-10T19:03:55 IST">
+        <test-method status="FAIL" signature="dragandDropTest()[pri:2, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="dragandDropTest" duration-ms="7608" started-at="2022-01-14T20:14:55 IST" finished-at="2022-01-14T20:15:02 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GJA9UDI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GJA9UDI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.OutputType$3.save(OutputType.java:92)
+at org.openqa.selenium.OutputType$3.convertFromBase64Png(OutputType.java:73)
+at org.openqa.selenium.OutputType$3.convertFromBase64Png(OutputType.java:71)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:299)
+at com.qa.listeners.TestListener.onTestFailure(TestListener.java:34)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+at java.io.FileOutputStream.open0(Native Method)
+at java.io.FileOutputStream.open(FileOutputStream.java:270)
+at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+at org.openqa.selenium.OutputType$3.save(OutputType.java:87)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragandDropTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-10T19:03:55 IST" finished-at="2022-01-10T19:03:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="beforeMethod" is-config="true" duration-ms="230" started-at="2022-01-10T19:03:55 IST" finished-at="2022-01-10T19:03:55 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="beforeMethod" is-config="true" duration-ms="316" started-at="2022-01-14T20:15:03 IST" finished-at="2022-01-14T20:15:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="touchgesturesTest()[pri:3, instance:com.qa.tests.ApiDemoTest@229c6181]" name="touchgesturesTest" duration-ms="6609" started-at="2022-01-10T19:03:55 IST" finished-at="2022-01-10T19:04:02 IST">
+        <test-method status="PASS" signature="touchgesturesTest()[pri:3, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="touchgesturesTest" duration-ms="2000" started-at="2022-01-14T20:15:03 IST" finished-at="2022-01-14T20:15:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- touchgesturesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="tearDown" is-config="true" duration-ms="467" started-at="2022-01-10T19:04:02 IST" finished-at="2022-01-10T19:04:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@229c6181]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-10T19:04:02 IST" finished-at="2022-01-10T19:04:02 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-14T20:15:05 IST" finished-at="2022-01-14T20:15:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="afterMethod" is-config="true" duration-ms="191" started-at="2022-01-14T20:15:05 IST" finished-at="2022-01-14T20:15:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=touchgesturesTest status=SUCCESS method=ApiDemoTest.touchgesturesTest()[pri:3, instance:com.qa.tests.ApiDemoTest@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ApiDemoTest@1ed4ae0f]" name="tearDown" is-config="true" duration-ms="446" started-at="2022-01-14T20:15:06 IST" finished-at="2022-01-14T20:15:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.ApiDemoTest -->
       <class name="com.qa.webtests.AmazonWebTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="beforeSuite" is-config="true" duration-ms="13671" started-at="2022-01-10T19:02:51 IST" finished-at="2022-01-10T19:03:05 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="beforeSuite" is-config="true" duration-ms="4897" started-at="2022-01-14T20:14:16 IST" finished-at="2022-01-14T20:14:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@957e06]" name="afterSuite" is-config="true" duration-ms="50" started-at="2022-01-10T19:04:02 IST" finished-at="2022-01-10T19:04:02 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@6bd61f98]" name="afterSuite" is-config="true" duration-ms="66" started-at="2022-01-14T20:15:06 IST" finished-at="2022-01-14T20:15:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

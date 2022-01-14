@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+    <listener class-name="com.qa.listeners.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="Test1(failed)">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Any Device Name"/>
+    <classes>
+      <class name="com.qa.tests.ApiDemoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="dragandDropTest"/>
+          <include name="beforesecondTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.ApiDemoTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

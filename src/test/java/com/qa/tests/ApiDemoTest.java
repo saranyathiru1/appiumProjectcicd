@@ -46,6 +46,7 @@ public class ApiDemoTest extends AppBaseTest{
   @BeforeMethod
   public void beforeMethod() {
 	  
+	  System.out.println("Api demo test before method");
 	  log.info("Instantiating the page object classes for ApiDemos App");
 	  mainPage = new MainPage();
 	  secondPage = new SecondPage();
@@ -56,6 +57,8 @@ public class ApiDemoTest extends AppBaseTest{
 
   @AfterMethod
   public void afterMethod() {
+	  
+	  System.out.println("Api demo test after method");
   }
   
   @Test(priority=1)

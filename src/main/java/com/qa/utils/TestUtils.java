@@ -20,6 +20,9 @@ import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 
 import java.io.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 
 import com.qa.AppBaseTest;
@@ -84,7 +87,11 @@ public class TestUtils extends AppBaseTest {
 	}
 	
 	
-	
+	public String dateTime() {
+		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
+		Date date = new Date();
+		return dateFormat.format(date);
+	}
 	
 	
 	public HashMap<String, String> parseStringXML(InputStream file) throws Exception{

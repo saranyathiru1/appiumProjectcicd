@@ -7,7 +7,8 @@
 <listener class-name="com.qa.listeners.ExtentReporterNG"/>
 </listeners>
 
- <test name="Test">
+
+<test name="Test">
 
   <parameter name="platformName" value="Android"/>
   <parameter name="deviceName" value="Any Device Name"/>
@@ -16,8 +17,11 @@
 
  <classes>
   <class name="com.qa.webtests.AmazonWebTest"/>
+
   </classes>
   </test> 
+
+
   
    <test name="Test1">
 

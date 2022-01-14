@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.ApiDemoTest" hash-for-method="dragandDropTest">dragandDropTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.ApiDemoTest" hash-for-method="dragandDropTest">dragandDropTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.ApiDemoTest" hash-for-method="scrollTest">scrollTest</a> <!-- method navigator-link -->
@@ -144,9 +153,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.qa.tests.ApiDemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -155,8 +164,59 @@
                   <a name="dragandDropTest">
                   </a> <!-- dragandDropTest -->
                   <span class="method-name">dragandDropTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GJA9UDI&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.OutputType$3.save(OutputType.java:92)
+	at org.openqa.selenium.OutputType$3.convertFromBase64Png(OutputType.java:73)
+	at org.openqa.selenium.OutputType$3.convertFromBase64Png(OutputType.java:71)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:299)
+	at com.qa.listeners.TestListener.onTestFailure(TestListener.java:34)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+	at org.openqa.selenium.OutputType$3.save(OutputType.java:87)
+	... 29 more
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.ApiDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="scrollTest">
@@ -275,32 +335,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scrollTest')
 data.setCell(0, 2, 'com.qa.tests.ApiDemoTest')
-data.setCell(0, 3, 8491);
+data.setCell(0, 3, 9187);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'dragandDropTest')
 data.setCell(1, 2, 'com.qa.tests.ApiDemoTest')
-data.setCell(1, 3, 7360);
+data.setCell(1, 3, 7608);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'touchgesturesTest')
-data.setCell(2, 2, 'com.qa.tests.ApiDemoTest')
-data.setCell(2, 3, 6609);
+data.setCell(2, 1, 'searchItemsandVerifyTitleTest')
+data.setCell(2, 2, 'com.qa.webtests.AmazonWebTest')
+data.setCell(2, 3, 3017);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'searchItemsandVerifyTitleTest')
-data.setCell(3, 2, 'com.qa.webtests.AmazonWebTest')
-data.setCell(3, 3, 3036);
+data.setCell(3, 1, 'touchgesturesTest')
+data.setCell(3, 2, 'com.qa.tests.ApiDemoTest')
+data.setCell(3, 3, 2000);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyAmazonLogoTest')
 data.setCell(4, 2, 'com.qa.webtests.AmazonWebTest')
-data.setCell(4, 3, 36);
+data.setCell(4, 3, 26);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'scrollToBottomTest')
 data.setCell(5, 2, 'com.qa.webtests.AmazonWebTest')
-data.setCell(5, 3, 28);
+data.setCell(5, 3, 22);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -333,91 +393,97 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(Android, Any Device Name, Chrome)</span>
-                <span class="method-start">13680 ms</span>
+                <span class="method-start">4901 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">33766 ms</span>
+                <span class="method-start">16813 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAmazonLogoTest</span>
-                <span class="method-start">33996 ms</span>
+                <span class="method-start">17042 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">34042 ms</span>
+                <span class="method-start">17077 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchItemsandVerifyTitleTest</span>
-                <span class="method-start">34047 ms</span>
+                <span class="method-start">17084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">37093 ms</span>
+                <span class="method-start">20107 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">scrollToBottomTest</span>
-                <span class="method-start">37097 ms</span>
+                <span class="method-start">20110 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37128 ms</span>
+                <span class="method-start">20135 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.ApiDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforesecondTest(Android, Any Device Name)</span>
-                <span class="method-start">37242 ms</span>
+                <span class="method-start">20185 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">47081 ms</span>
+                <span class="method-start">28848 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">scrollTest</span>
-                <span class="method-start">47409 ms</span>
+                <span class="method-start">29127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=scrollTest status=SUCCESS method=ApiDemoTest.scrollTest()[pri:1, instance:com.qa.te...)</span>
+                <span class="method-start">38316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">55902 ms</span>
+                <span class="method-start">38316 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">55903 ms</span>
+                <span class="method-start">38513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">dragandDropTest</span>
-                <span class="method-start">56077 ms</span>
+                <span class="method-start">38513 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">63441 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">63444 ms</span>
+                <span class="method-start">46704 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">touchgesturesTest</span>
-                <span class="method-start">63674 ms</span>
+                <span class="method-start">47020 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">70286 ms</span>
-              </div> <!-- configuration-test after -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">70286 ms</span>
+                <span class="method-start">49021 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=touchgesturesTest status=SUCCESS method=ApiDemoTest.touchgesturesTest()[pri:3, inst...)</span>
+                <span class="method-start">49022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49213 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.webtests.AmazonWebTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">70780 ms</span>
+                <span class="method-start">49686 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -9,15 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,475</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test1</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">33,514</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">56,989</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15,243</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,476</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">44,719</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.webtests.AmazonWebTest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1641821608895</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.webtests.AmazonWebTest</td><td><a href="#m1">scrollToBottomTest</a></td><td rowspan="1">1641821608864</td><td rowspan="1">28</td></tr><tr class="passedeven"><td><a href="#m2">searchItemsandVerifyTitleTest</a></td><td rowspan="1">1641821605814</td><td rowspan="1">3036</td></tr><tr class="passedeven"><td><a href="#m3">verifyAmazonLogoTest</a></td><td rowspan="1">1641821605763</td><td rowspan="1">36</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.tests.ApiDemoTest</td><td><a href="#m4">dragandDropTest</a></td><td rowspan="1">1641821627844</td><td rowspan="1">7360</td></tr><tr class="passedeven"><td><a href="#m5">scrollTest</a></td><td rowspan="1">1641821619176</td><td rowspan="1">8491</td></tr><tr class="passedeven"><td><a href="#m6">touchgesturesTest</a></td><td rowspan="1">1641821635441</td><td rowspan="1">6609</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.webtests.AmazonWebTest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1642171476929</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.webtests.AmazonWebTest</td><td><a href="#m1">scrollToBottomTest</a></td><td rowspan="1">1642171476904</td><td rowspan="1">22</td></tr><tr class="passedeven"><td><a href="#m2">searchItemsandVerifyTitleTest</a></td><td rowspan="1">1642171473878</td><td rowspan="1">3017</td></tr><tr class="passedeven"><td><a href="#m3">verifyAmazonLogoTest</a></td><td rowspan="1">1642171473836</td><td rowspan="1">26</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.tests.ApiDemoTest</td><td><a href="#m4">dragandDropTest</a></td><td rowspan="1">1642171495307</td><td rowspan="1">7608</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.tests.ApiDemoTest</td><td><a href="#m5">scrollTest</a></td><td rowspan="1">1642171485921</td><td rowspan="1">9187</td></tr><tr class="passedeven"><td><a href="#m6">touchgesturesTest</a></td><td rowspan="1">1642171503814</td><td rowspan="1">2000</td></tr></tbody>
 </table>
 <h2>Test</h2><h3 id="m0">com.qa.webtests.AmazonWebTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.qa.WebBaseTest.tearDown(WebBaseTest.java:187)
+	at com.qa.WebBaseTest.tearDown(WebBaseTest.java:201)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -46,7 +46,48 @@
 <h3 id="m1">com.qa.webtests.AmazonWebTest#scrollToBottomTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.qa.webtests.AmazonWebTest#searchItemsandVerifyTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.qa.webtests.AmazonWebTest#verifyAmazonLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test1</h2><h3 id="m4">com.qa.tests.ApiDemoTest#dragandDropTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m4">com.qa.tests.ApiDemoTest#dragandDropTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GJA9UDI&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.OutputType$3.save(OutputType.java:92)
+	at org.openqa.selenium.OutputType$3.convertFromBase64Png(OutputType.java:73)
+	at org.openqa.selenium.OutputType$3.convertFromBase64Png(OutputType.java:71)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:299)
+	at com.qa.listeners.TestListener.onTestFailure(TestListener.java:34)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\Users\Admin\AppData\Local\Temp\screenshot4326643688242882039.png (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+	at org.openqa.selenium.OutputType$3.save(OutputType.java:87)
+	... 29 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">com.qa.tests.ApiDemoTest#scrollTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">com.qa.tests.ApiDemoTest#touchgesturesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

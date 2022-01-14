@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.ApiDemoTest" hash-for-method="dragandDropTest">dragandDropTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.ApiDemoTest" hash-for-method="dragandDropTest">dragandDropTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.ApiDemoTest" hash-for-method="scrollTest">scrollTest</a> <!-- method navigator-link -->
@@ -142,6 +151,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.ApiDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragandDropTest">
+                  </a> <!-- dragandDropTest -->
+                  <span class="method-name">dragandDropTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Dropped] but found [Dropped!]
+	at com.qa.tests.ApiDemoTest.dragandDropTest(ApiDemoTest.java:87)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -177,13 +205,6 @@
               <span class="class-name">com.qa.tests.ApiDemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dragandDropTest">
-                  </a> <!-- dragandDropTest -->
-                  <span class="method-name">dragandDropTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="scrollTest">
@@ -273,32 +294,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scrollTest')
 data.setCell(0, 2, 'com.qa.tests.ApiDemoTest')
-data.setCell(0, 3, 10056);
+data.setCell(0, 3, 10226);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'dragandDropTest')
 data.setCell(1, 2, 'com.qa.tests.ApiDemoTest')
-data.setCell(1, 3, 9154);
+data.setCell(1, 3, 7661);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'touchgesturesTest')
-data.setCell(2, 2, 'com.qa.tests.ApiDemoTest')
-data.setCell(2, 3, 7058);
+data.setCell(2, 1, 'searchItemsandVerifyTitleTest')
+data.setCell(2, 2, 'com.qa.webtests.AmazonWebTest')
+data.setCell(2, 3, 3026);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'searchItemsandVerifyTitleTest')
-data.setCell(3, 2, 'com.qa.webtests.AmazonWebTest')
-data.setCell(3, 3, 3013);
+data.setCell(3, 1, 'touchgesturesTest')
+data.setCell(3, 2, 'com.qa.tests.ApiDemoTest')
+data.setCell(3, 3, 2387);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyAmazonLogoTest')
 data.setCell(4, 2, 'com.qa.webtests.AmazonWebTest')
-data.setCell(4, 3, 43);
+data.setCell(4, 3, 50);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'scrollToBottomTest')
 data.setCell(5, 2, 'com.qa.webtests.AmazonWebTest')
-data.setCell(5, 3, 37);
+data.setCell(5, 3, 30);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -309,6 +330,13 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">dragandDropTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">This is sample screenshot</span>
+                <span class="reporter-method-output"><a href='C:\Users\Admin\Downloads\AppiumProject\AppiumProject\Screenshots\Android_\Any Device Name\13-Jan-2022__11_17_19PM\ApiDemoTest\dragandDropTest.png'> <img src='C:\Users\Admin\Downloads\AppiumProject\AppiumProject\Screenshots\Android_\Any Device Name\13-Jan-2022__11_17_19PM\ApiDemoTest\dragandDropTest.png' height='400' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -331,91 +359,93 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(Android, Any Device Name, Chrome)</span>
-                <span class="method-start">5103 ms</span>
+                <span class="method-start">7388 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">19254 ms</span>
+                <span class="method-start">26861 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAmazonLogoTest</span>
-                <span class="method-start">19569 ms</span>
+                <span class="method-start">27258 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">19616 ms</span>
+                <span class="method-start">27313 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchItemsandVerifyTitleTest</span>
-                <span class="method-start">19620 ms</span>
+                <span class="method-start">27317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">22639 ms</span>
+                <span class="method-start">30345 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">scrollToBottomTest</span>
-                <span class="method-start">22652 ms</span>
+                <span class="method-start">30349 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22689 ms</span>
+                <span class="method-start">30380 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.ApiDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforesecondTest(Android, Any Device Name)</span>
-                <span class="method-start">22746 ms</span>
+                <span class="method-start">30433 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">32399 ms</span>
+                <span class="method-start">40423 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">scrollTest</span>
-                <span class="method-start">33757 ms</span>
+                <span class="method-start">41296 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">43814 ms</span>
+                <span class="method-start">51523 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">43817 ms</span>
+                <span class="method-start">51525 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">dragandDropTest</span>
-                <span class="method-start">44271 ms</span>
+                <span class="method-start">51989 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">53426 ms</span>
+                <span class="method-start">60345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">53428 ms</span>
+                <span class="method-start">60346 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">touchgesturesTest</span>
-                <span class="method-start">53870 ms</span>
+                <span class="method-start">61380 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">60931 ms</span>
+                <span class="method-start">63856 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60932 ms</span>
+                <span class="method-start">63857 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.webtests.AmazonWebTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">61614 ms</span>
+                <span class="method-start">64439 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
