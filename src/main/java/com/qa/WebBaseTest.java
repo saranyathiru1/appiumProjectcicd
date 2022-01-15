@@ -52,11 +52,12 @@ public class WebBaseTest {
 	
 	
 
-	
+	//constructor added for POM
 	public WebBaseTest() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
+	//constructor added for appiumdriver
 	public AppiumDriver<WebElement> getDriver() {
 		return driver;
 	}
