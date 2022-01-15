@@ -21,7 +21,7 @@ public class DragAndDropPage extends AppBaseTest{
 	
 	public String getDragResultText() {
 		
-		return getAttribute(dragResultText, "text");		
+		return getAttribute(dragResultText, "text", "get the attribute text");		
 	}
 	
 	public WebElement dragDot1() {

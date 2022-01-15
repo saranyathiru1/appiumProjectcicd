@@ -57,7 +57,7 @@ public class WebBaseTest {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-	//constructor added for appiumdriver
+	//constructor added for appiumdriver weblements
 	public AppiumDriver<WebElement> getDriver() {
 		return driver;
 	}

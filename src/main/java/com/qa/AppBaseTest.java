@@ -1,6 +1,8 @@
 package com.qa;
 
 
+import com.aventstack.extentreports.Status;
+import com.qa.reports.ExtentReport;
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
@@ -56,7 +58,7 @@ public class AppBaseTest {
 	TestUtils utils;
 	URL url;
 	
-	//constructor added
+	//constructor added for page object factory
 	public AppBaseTest() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
@@ -182,6 +184,18 @@ public class AppBaseTest {
 		}
 	}
 	
+	public void click(AndroidElement e, String msg) {
+		try {
+		waitForVisibility(e);
+		log.info(msg);
+		ExtentReport.getTest().log(Status.INFO, msg);
+		e.click();
+		}
+		catch(Exception ex) {
+			log.error("click action not performed");
+		}
+	}
+	
 	public boolean isDisplayed(AndroidElement e) {
 		try {
 		waitForVisibility(e);
@@ -195,6 +209,19 @@ public class AppBaseTest {
 
 	public String getAttribute(AndroidElement e, String attribute ) {
 		try {
+		waitForVisibility(e);
+		
+		}
+		catch(Exception ex) {
+			log.error("No attribute value found");
+		}
+		return e.getAttribute(attribute);
+	}
+	
+	public String getAttribute(AndroidElement e, String attribute , String msg) {
+		try {
+		log.info(msg);
+		ExtentReport.getTest().log(Status.INFO, msg);
 		waitForVisibility(e);
 		
 		}

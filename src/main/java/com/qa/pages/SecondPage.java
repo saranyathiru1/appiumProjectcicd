@@ -24,8 +24,7 @@ public class SecondPage extends AppBaseTest{
 	
 	public DragAndDropPage clickOnDragandDrop() {
 		
-		click(dragAndDrop);
-		log.info("Click on Drag and Drop option");
+		click(dragAndDrop, "Click on Drag and Drop option");
 		return new DragAndDropPage();
 	}
 	

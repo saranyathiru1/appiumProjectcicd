@@ -21,8 +21,7 @@ public class MainPage extends AppBaseTest{
 	
 	public SecondPage clickOnViews() {
 		
-		click(views);
-		log.info("Clicking on Views");
+		click(views, "Clicking on Views");
 		return new SecondPage();
 	}
 

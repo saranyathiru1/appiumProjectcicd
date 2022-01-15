@@ -1,42 +1,6 @@
-[INFO ] 2022-01-14 20:12:09.642 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
-[INFO ] 2022-01-14 20:12:10.833 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
-[INFO ] 2022-01-14 20:12:11.129 com.qa.pages.SecondPage:34 - find element for Expandable lists option
-[ERROR] 2022-01-14 20:12:13.163 com.qa.tests.ApiDemoTest:111 - Error in touch gestures test
-[INFO ] 2022-01-14 20:12:13.896 com.qa.WebBaseTest:79 - Appium server stopped
-[INFO ] 2022-01-14 20:14:21.682 com.qa.WebBaseTest:74 - Appium server started
-[INFO ] 2022-01-14 20:14:33.607 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
-[INFO ] 2022-01-14 20:14:33.844 com.qa.pages.WebMainPage:25 - Check if amazon logo is displayed
-[ERROR] 2022-01-14 20:14:33.858 com.qa.WebBaseTest:139 - Element not found
-[ERROR] 2022-01-14 20:14:33.862 com.qa.tests.ApiDemoTest:68 - Error in Amazon logo test
-[INFO ] 2022-01-14 20:14:33.871 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
-[INFO ] 2022-01-14 20:14:33.882 com.qa.pages.WebMainPage:31 - Enter books value in search bar
-[ERROR] 2022-01-14 20:14:33.882 com.qa.WebBaseTest:139 - Element not found
-[ERROR] 2022-01-14 20:14:33.883 com.qa.WebBaseTest:172 - Unable to perform senkeys for element
-[ERROR] 2022-01-14 20:14:33.883 com.qa.WebBaseTest:139 - Element not found
-[ERROR] 2022-01-14 20:14:33.884 com.qa.WebBaseTest:150 - click action not performed
-[INFO ] 2022-01-14 20:14:33.885 com.qa.pages.WebMainPage:40 - Click on search button
-[INFO ] 2022-01-14 20:14:36.894 com.qa.pages.WebBooksPage:28 - Checking Books title is present or not
-[ERROR] 2022-01-14 20:14:36.895 com.qa.tests.ApiDemoTest:87 - Error in search and verify title test
-[INFO ] 2022-01-14 20:14:36.902 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
-[INFO ] 2022-01-14 20:14:36.907 com.qa.pages.WebBooksPage:34 - Scroll to the bottom of page
-[ERROR] 2022-01-14 20:14:36.924 com.qa.WebBaseTest:191 - Unable to perform move to element action
-[INFO ] 2022-01-14 20:14:36.925 com.qa.pages.WebBooksPage:41 - Scroll to the bottom of page
-[ERROR] 2022-01-14 20:14:36.925 com.qa.WebBaseTest:139 - Element not found
-[ERROR] 2022-01-14 20:14:36.926 com.qa.tests.ApiDemoTest:100 - Error in scroll to bottom test
-[INFO ] 2022-01-14 20:14:45.640 com.qa.AppBaseTest:142 - Initializing driver for native app
-[INFO ] 2022-01-14 20:14:45.641 com.qa.AppBaseTest:143 - Opening Api Demo app
-[INFO ] 2022-01-14 20:14:45.643 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
-[INFO ] 2022-01-14 20:14:47.496 com.qa.pages.MainPage:25 - Clicking on Views
-[INFO ] 2022-01-14 20:14:54.432 com.qa.utils.TestUtils:48 - Scrolling down to :WebView3
-[INFO ] 2022-01-14 20:14:55.108 com.qa.utils.TestUtils:55 - Clicking on android back button
-[INFO ] 2022-01-14 20:14:55.308 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
-[INFO ] 2022-01-14 20:14:56.993 com.qa.pages.MainPage:25 - Clicking on Views
-[INFO ] 2022-01-14 20:14:58.097 com.qa.pages.SecondPage:28 - Click on Drag and Drop option
-[INFO ] 2022-01-14 20:14:58.136 com.qa.pages.DragAndDropPage:29 - Identify element for first circle
-[INFO ] 2022-01-14 20:14:58.137 com.qa.pages.DragAndDropPage:37 - Identify element for second circle
-[INFO ] 2022-01-14 20:15:00.108 com.qa.utils.TestUtils:78 - Perform long press action on the element:Located by By.chained({By.id: drag_dot_1})
-[INFO ] 2022-01-14 20:15:01.995 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
-[INFO ] 2022-01-14 20:15:03.498 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
-[INFO ] 2022-01-14 20:15:03.815 com.qa.pages.SecondPage:34 - find element for Expandable lists option
-[ERROR] 2022-01-14 20:15:05.813 com.qa.tests.ApiDemoTest:111 - Error in touch gestures test
-[INFO ] 2022-01-14 20:15:06.546 com.qa.WebBaseTest:80 - Appium server stopped
+[INFO ] 2022-01-15 16:54:31.448 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-15 16:54:31.468 com.qa.AppBaseTest:223 - get the attribute text
+[INFO ] 2022-01-15 16:54:32.717 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-15 16:54:33.013 com.qa.pages.SecondPage:33 - find element for Expandable lists option
+[ERROR] 2022-01-15 16:54:35.069 com.qa.tests.ApiDemoTest:111 - Error in touch gestures test
+[INFO ] 2022-01-15 16:54:36.027 com.qa.WebBaseTest:81 - Appium server stopped
