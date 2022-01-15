@@ -56,11 +56,12 @@ public class AppBaseTest {
 	TestUtils utils;
 	URL url;
 	
-	//constructor added
+	//constructor added for POM
 	public AppBaseTest() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
+	//get driver constructor
 	public AndroidDriver<AndroidElement> getDriver() {
 		return driver;
 	}
