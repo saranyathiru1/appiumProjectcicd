@@ -65,6 +65,7 @@ public class WebBaseTest {
 	
 	public AppiumDriverLocalService getAppiumServerDefault() {
 		//return AppiumDriverLocalService.buildService(new AppiumServiceBuilder().withLogFile(new File("ServerLogs/server.log")));
+		//return default service
 		return AppiumDriverLocalService.buildDefaultService();
 	}
 	
