@@ -32,7 +32,7 @@ import java.util.Properties;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -66,6 +66,7 @@ public class AppBaseTest {
 	public AndroidDriver<AndroidElement> getDriver() {
 		return driver;
 	}
+	
 	
 	@BeforeMethod
 	public void beforeMethod() {

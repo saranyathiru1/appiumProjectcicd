@@ -1,0 +1,6 @@
+[INFO ] 2022-01-15 16:54:31.448 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-15 16:54:31.468 com.qa.AppBaseTest:223 - get the attribute text
+[INFO ] 2022-01-15 16:54:32.717 com.qa.tests.ApiDemoTest:50 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-15 16:54:33.013 com.qa.pages.SecondPage:33 - find element for Expandable lists option
+[ERROR] 2022-01-15 16:54:35.069 com.qa.tests.ApiDemoTest:111 - Error in touch gestures test
+[INFO ] 2022-01-15 16:54:36.027 com.qa.WebBaseTest:81 - Appium server stopped

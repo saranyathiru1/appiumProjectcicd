@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<string name="Web_View_Option">WebView3</string>
-	<string name="Drag_Drop_Text">Dropped</string>
+	<string name="Drag_Drop_Text">Dropped!</string>
 	<string name="SendKeys_Text">Books</string>
 	<string name="Books_Text">Books</string>
 </resources>

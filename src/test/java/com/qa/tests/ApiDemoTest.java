@@ -41,6 +41,8 @@ public class ApiDemoTest extends AppBaseTest{
 	
 	static Logger log = LogManager.getLogger(ApiDemoTest.class.getName());
 	
+	
+	
 
   
   @BeforeMethod
@@ -54,6 +56,7 @@ public class ApiDemoTest extends AppBaseTest{
 	  dragDrop = new DragAndDropPage();
 	  customAdapter = new CustomAdapterPage();
   }
+  
 
   @AfterMethod
   public void afterMethod() {
