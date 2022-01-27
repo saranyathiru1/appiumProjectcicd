@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57958" started-at="2022-01-18T13:11:00Z" finished-at="2022-01-18T13:11:58Z">
+  <suite name="Suite" duration-ms="55703" started-at="2022-01-18T14:21:41Z" finished-at="2022-01-18T14:22:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20213" started-at="2022-01-18T13:11:00Z" finished-at="2022-01-18T13:11:20Z">
+    <test name="Test" duration-ms="19270" started-at="2022-01-18T14:21:41Z" finished-at="2022-01-18T14:22:01Z">
       <class name="com.qa.webtests.AmazonWebTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeTest" is-config="true" duration-ms="16709" started-at="2022-01-18T13:11:00Z" finished-at="2022-01-18T13:11:17Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeTest" is-config="true" duration-ms="15508" started-at="2022-01-18T14:21:41Z" finished-at="2022-01-18T14:21:57Z">
           <params>
             <param index="0">
               <value>
@@ -28,31 +28,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeMethod" is-config="true" duration-ms="157" started-at="2022-01-18T13:11:17Z" finished-at="2022-01-18T13:11:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeMethod" is-config="true" duration-ms="286" started-at="2022-01-18T14:21:57Z" finished-at="2022-01-18T14:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyAmazonLogoTest()[pri:1, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="verifyAmazonLogoTest" duration-ms="267" started-at="2022-01-18T13:11:17Z" finished-at="2022-01-18T13:11:17Z">
+        <test-method status="PASS" signature="verifyAmazonLogoTest()[pri:1, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="verifyAmazonLogoTest" duration-ms="356" started-at="2022-01-18T14:21:57Z" finished-at="2022-01-18T14:21:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAmazonLogoTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-01-18T13:11:17Z" finished-at="2022-01-18T13:11:17Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-01-18T14:21:58Z" finished-at="2022-01-18T14:21:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="searchItemsandVerifyTitleTest()[pri:2, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="searchItemsandVerifyTitleTest" duration-ms="3005" started-at="2022-01-18T13:11:17Z" finished-at="2022-01-18T13:11:20Z">
+        <test-method status="PASS" signature="searchItemsandVerifyTitleTest()[pri:2, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="searchItemsandVerifyTitleTest" duration-ms="3016" started-at="2022-01-18T14:21:58Z" finished-at="2022-01-18T14:22:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsandVerifyTitleTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2022-01-18T13:11:20Z" finished-at="2022-01-18T13:11:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="scrollToBottomTest()[pri:3, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="scrollToBottomTest" duration-ms="19" started-at="2022-01-18T13:11:20Z" finished-at="2022-01-18T13:11:20Z">
+        <test-method status="PASS" signature="scrollToBottomTest()[pri:3, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="scrollToBottomTest" duration-ms="27" started-at="2022-01-18T14:22:01Z" finished-at="2022-01-18T14:22:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToBottomTest -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-01-18T13:11:20Z" finished-at="2022-01-18T13:11:20Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-01-18T14:22:01Z" finished-at="2022-01-18T14:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-18T14:22:01Z" finished-at="2022-01-18T14:22:01Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -93,9 +93,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.webtests.AmazonWebTest -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="37121" started-at="2022-01-18T13:11:21Z" finished-at="2022-01-18T13:11:58Z">
+    <test name="Test1" duration-ms="35677" started-at="2022-01-18T14:22:01Z" finished-at="2022-01-18T14:22:37Z">
       <class name="com.qa.tests.ApiDemoTest">
-        <test-method status="PASS" signature="beforesecondTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforesecondTest" is-config="true" duration-ms="9833" started-at="2022-01-18T13:11:21Z" finished-at="2022-01-18T13:11:31Z">
+        <test-method status="PASS" signature="beforesecondTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforesecondTest" is-config="true" duration-ms="9471" started-at="2022-01-18T14:22:01Z" finished-at="2022-01-18T14:22:11Z">
           <params>
             <param index="0">
               <value>
@@ -111,19 +111,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesecondTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforeMethod" is-config="true" duration-ms="709" started-at="2022-01-18T13:11:31Z" finished-at="2022-01-18T13:11:32Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforeMethod" is-config="true" duration-ms="636" started-at="2022-01-18T14:22:11Z" finished-at="2022-01-18T14:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="scrollTest()[pri:1, instance:com.qa.tests.ApiDemoTest@378542de]" name="scrollTest" duration-ms="10151" started-at="2022-01-18T13:11:32Z" finished-at="2022-01-18T13:11:42Z">
+        <test-method status="PASS" signature="scrollTest()[pri:1, instance:com.qa.tests.ApiDemoTest@378542de]" name="scrollTest" duration-ms="9558" started-at="2022-01-18T14:22:12Z" finished-at="2022-01-18T14:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-18T13:11:42Z" finished-at="2022-01-18T13:11:42Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-18T14:22:21Z" finished-at="2022-01-18T14:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="233" started-at="2022-01-18T13:11:42Z" finished-at="2022-01-18T13:11:42Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="184" started-at="2022-01-18T14:22:21Z" finished-at="2022-01-18T14:22:21Z">
           <params>
             <param index="0">
               <value>
@@ -134,15 +134,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforeMethod" is-config="true" duration-ms="453" started-at="2022-01-18T13:11:42Z" finished-at="2022-01-18T13:11:42Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforeMethod" is-config="true" duration-ms="437" started-at="2022-01-18T14:22:21Z" finished-at="2022-01-18T14:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="dragandDropTest()[pri:2, instance:com.qa.tests.ApiDemoTest@378542de]" name="dragandDropTest" duration-ms="7651" started-at="2022-01-18T13:11:42Z" finished-at="2022-01-18T13:11:50Z">
+        <test-method status="PASS" signature="dragandDropTest()[pri:2, instance:com.qa.tests.ApiDemoTest@378542de]" name="dragandDropTest" duration-ms="7694" started-at="2022-01-18T14:22:22Z" finished-at="2022-01-18T14:22:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragandDropTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="156" started-at="2022-01-18T13:11:50Z" finished-at="2022-01-18T13:11:50Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-18T14:22:29Z" finished-at="2022-01-18T14:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="172" started-at="2022-01-18T14:22:29Z" finished-at="2022-01-18T14:22:30Z">
           <params>
             <param index="0">
               <value>
@@ -153,23 +157,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-18T13:11:50Z" finished-at="2022-01-18T13:11:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforeMethod" is-config="true" duration-ms="360" started-at="2022-01-18T13:11:50Z" finished-at="2022-01-18T13:11:51Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="beforeMethod" is-config="true" duration-ms="313" started-at="2022-01-18T14:22:30Z" finished-at="2022-01-18T14:22:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="touchgesturesTest()[pri:3, instance:com.qa.tests.ApiDemoTest@378542de]" name="touchgesturesTest" duration-ms="6982" started-at="2022-01-18T13:11:51Z" finished-at="2022-01-18T13:11:58Z">
+        <test-method status="PASS" signature="touchgesturesTest()[pri:3, instance:com.qa.tests.ApiDemoTest@378542de]" name="touchgesturesTest" duration-ms="6553" started-at="2022-01-18T14:22:30Z" finished-at="2022-01-18T14:22:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- touchgesturesTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-18T13:11:58Z" finished-at="2022-01-18T13:11:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="153" started-at="2022-01-18T13:11:58Z" finished-at="2022-01-18T13:11:58Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="210" started-at="2022-01-18T14:22:36Z" finished-at="2022-01-18T14:22:37Z">
           <params>
             <param index="0">
               <value>
@@ -180,17 +176,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="tearDown" is-config="true" duration-ms="436" started-at="2022-01-18T13:11:58Z" finished-at="2022-01-18T13:11:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-18T14:22:36Z" finished-at="2022-01-18T14:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ApiDemoTest@378542de]" name="tearDown" is-config="true" duration-ms="437" started-at="2022-01-18T14:22:37Z" finished-at="2022-01-18T14:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.ApiDemoTest -->
       <class name="com.qa.webtests.AmazonWebTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeSuite" is-config="true" duration-ms="5219" started-at="2022-01-18T13:10:55Z" finished-at="2022-01-18T13:11:00Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="beforeSuite" is-config="true" duration-ms="4950" started-at="2022-01-18T14:21:36Z" finished-at="2022-01-18T14:21:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="afterSuite" is-config="true" duration-ms="63" started-at="2022-01-18T13:11:58Z" finished-at="2022-01-18T13:11:58Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.webtests.AmazonWebTest@8317c52]" name="afterSuite" is-config="true" duration-ms="62" started-at="2022-01-18T14:22:37Z" finished-at="2022-01-18T14:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

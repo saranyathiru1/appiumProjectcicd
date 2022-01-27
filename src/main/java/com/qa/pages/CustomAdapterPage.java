@@ -15,7 +15,7 @@ public class CustomAdapterPage extends AppBaseTest{
 	static Logger log = LogManager.getLogger(CustomAdapterPage.class.getName());
 	
 	
-	@AndroidFindBy(accessibility="1. Custom Adapter")  AndroidElement customAdapter;
+	@AndroidFindBy(accessibility="1. Custom Adapter")   AndroidElement customAdapter;
 	
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='People Names']")  AndroidElement peopleNames;
 	@AndroidFindBy(xpath="//android.widget.TextView[@text = 'Sample menu']")  AndroidElement sampleMenu;
