@@ -52,7 +52,7 @@ public class AppBaseTest {
 	static String dateTime;
 
 	
-	public static Properties  props;
+	public static Properties  props; //properties file
 	InputStream inputStream;	
 	InputStream stringis;
 	TestUtils utils;
