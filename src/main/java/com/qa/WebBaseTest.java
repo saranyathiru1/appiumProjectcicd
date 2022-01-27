@@ -52,18 +52,21 @@ public class WebBaseTest {
 	
 	
 
-	
+	//constructor added for POM
 	public WebBaseTest() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
+	//constructor added for appiumdriver weblements
 	public AppiumDriver<WebElement> getDriver() {
 		return driver;
 	}
 
 	
+	
 	public AppiumDriverLocalService getAppiumServerDefault() {
 		//return AppiumDriverLocalService.buildService(new AppiumServiceBuilder().withLogFile(new File("ServerLogs/server.log")));
+		//return default service
 		return AppiumDriverLocalService.buildDefaultService();
 	}
 	

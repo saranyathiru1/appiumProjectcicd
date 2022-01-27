@@ -4,20 +4,18 @@
 
 <listeners>
 <listener class-name="com.qa.listeners.TestListener"/>
-<listener class-name="com.qa.listeners.ExtentReporterNG"/>
 </listeners>
 
 
 <test name="Test">
 
   <parameter name="platformName" value="Android"/>
-  <parameter name="deviceName" value="Any Device Name"/>
+  <parameter name="deviceName" value="Samsung S9"/>
     <parameter name="browserName" value="Chrome"/>
   
 
  <classes>
   <class name="com.qa.webtests.AmazonWebTest"/>
-
   </classes>
   </test> 
 

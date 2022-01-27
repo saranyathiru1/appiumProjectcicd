@@ -24,8 +24,7 @@ public class CustomAdapterPage extends AppBaseTest{
 	
 	public void clickOnCustomAdapter() {
 		
-		click(customAdapter);
-		log.info("Clicking on Custom Adapter option");
+		click(customAdapter, "Clicking on Custom Adapter option");
 	}
 	
 	public WebElement clickOnPeopleNames() {
