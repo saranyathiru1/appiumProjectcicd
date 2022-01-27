@@ -1,0 +1,102 @@
+[INFO ] 2022-01-18 18:53:06.675 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-18 18:53:06.875 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 18:53:07.475 com.qa.AppBaseTest:191 - Clicking on Views
+[INFO ] 2022-01-18 18:53:08.820 com.qa.AppBaseTest:191 - Click on Drag and Drop option
+[INFO ] 2022-01-18 18:53:09.891 com.qa.pages.DragAndDropPage:29 - Identify element for first circle
+[INFO ] 2022-01-18 18:53:09.891 com.qa.pages.DragAndDropPage:37 - Identify element for second circle
+[INFO ] 2022-01-18 18:53:11.891 com.qa.utils.TestUtils:78 - Perform long press action on the element:Located by By.chained({By.id: drag_dot_1})
+[INFO ] 2022-01-18 18:53:13.877 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-18 18:53:13.877 com.qa.AppBaseTest:224 - get the attribute text
+[INFO ] 2022-01-18 18:53:14.911 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-18 18:53:15.067 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 18:53:15.379 com.qa.pages.SecondPage:33 - find element for Expandable lists option
+[INFO ] 2022-01-18 18:53:16.630 com.qa.utils.TestUtils:61 - Perform touch action on the element:Located by By.chained({By.AccessibilityId: Expandable Lists})
+[INFO ] 2022-01-18 18:53:16.755 com.qa.AppBaseTest:191 - Clicking on Custom Adapter option
+[INFO ] 2022-01-18 18:53:17.724 com.qa.pages.CustomAdapterPage:32 - Clicking on Custom Adapter option
+[INFO ] 2022-01-18 18:53:21.527 com.qa.utils.TestUtils:69 - Perform long press action on the element:Located by By.chained({By.xpath: //android.widget.TextView[@text='People Names']})
+[INFO ] 2022-01-18 18:53:21.527 com.qa.pages.CustomAdapterPage:39 - Checking Sample Menu text
+[INFO ] 2022-01-18 18:53:22.746 com.qa.WebBaseTest:83 - Appium server stopped
+[INFO ] 2022-01-18 19:09:10.197 com.qa.WebBaseTest:77 - Appium server started
+[INFO ] 2022-01-18 19:09:30.464 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-18 19:09:30.948 com.qa.pages.WebMainPage:25 - Check if amazon logo is displayed
+[ERROR] 2022-01-18 19:09:30.981 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:09:30.986 com.qa.tests.ApiDemoTest:68 - Error in Amazon logo test
+[INFO ] 2022-01-18 19:09:31.004 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-18 19:09:31.005 com.qa.pages.WebMainPage:31 - Enter books value in search bar
+[ERROR] 2022-01-18 19:09:31.006 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:09:31.006 com.qa.WebBaseTest:175 - Unable to perform senkeys for element
+[ERROR] 2022-01-18 19:09:31.006 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:09:31.006 com.qa.WebBaseTest:153 - click action not performed
+[INFO ] 2022-01-18 19:09:31.006 com.qa.pages.WebMainPage:40 - Click on search button
+[INFO ] 2022-01-18 19:09:34.021 com.qa.pages.WebBooksPage:28 - Checking Books title is present or not
+[ERROR] 2022-01-18 19:09:34.023 com.qa.tests.ApiDemoTest:87 - Error in search and verify title test
+[INFO ] 2022-01-18 19:09:34.033 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-18 19:09:34.036 com.qa.pages.WebBooksPage:34 - Scroll to the bottom of page
+[ERROR] 2022-01-18 19:09:34.047 com.qa.WebBaseTest:194 - Unable to perform move to element action
+[INFO ] 2022-01-18 19:09:34.047 com.qa.pages.WebBooksPage:41 - Scroll to the bottom of page
+[ERROR] 2022-01-18 19:09:34.047 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:09:34.048 com.qa.tests.ApiDemoTest:100 - Error in scroll to bottom test
+[INFO ] 2022-01-18 19:09:44.978 com.qa.AppBaseTest:145 - Initializing driver for native app
+[INFO ] 2022-01-18 19:09:44.979 com.qa.AppBaseTest:146 - Opening Api Demo app
+[INFO ] 2022-01-18 19:09:44.981 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 19:09:45.844 com.qa.AppBaseTest:191 - Clicking on Views
+[INFO ] 2022-01-18 19:09:54.122 com.qa.utils.TestUtils:48 - Scrolling down to :WebView3
+[INFO ] 2022-01-18 19:09:54.758 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-18 19:09:54.953 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 19:09:55.392 com.qa.AppBaseTest:191 - Clicking on Views
+[INFO ] 2022-01-18 19:09:56.622 com.qa.AppBaseTest:191 - Click on Drag and Drop option
+[INFO ] 2022-01-18 19:09:57.672 com.qa.pages.DragAndDropPage:29 - Identify element for first circle
+[INFO ] 2022-01-18 19:09:57.673 com.qa.pages.DragAndDropPage:37 - Identify element for second circle
+[INFO ] 2022-01-18 19:09:59.758 com.qa.utils.TestUtils:78 - Perform long press action on the element:Located by By.chained({By.id: drag_dot_1})
+[INFO ] 2022-01-18 19:10:01.651 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-18 19:10:01.666 com.qa.AppBaseTest:224 - get the attribute text
+[INFO ] 2022-01-18 19:10:02.589 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-18 19:10:02.745 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 19:10:03.120 com.qa.pages.SecondPage:33 - find element for Expandable lists option
+[INFO ] 2022-01-18 19:10:04.324 com.qa.utils.TestUtils:61 - Perform touch action on the element:Located by By.chained({By.AccessibilityId: Expandable Lists})
+[INFO ] 2022-01-18 19:10:04.387 com.qa.AppBaseTest:191 - Clicking on Custom Adapter option
+[INFO ] 2022-01-18 19:10:05.355 com.qa.pages.CustomAdapterPage:32 - Clicking on Custom Adapter option
+[INFO ] 2022-01-18 19:10:09.130 com.qa.utils.TestUtils:69 - Perform long press action on the element:Located by By.chained({By.xpath: //android.widget.TextView[@text='People Names']})
+[INFO ] 2022-01-18 19:10:09.131 com.qa.pages.CustomAdapterPage:39 - Checking Sample Menu text
+[INFO ] 2022-01-18 19:10:10.291 com.qa.WebBaseTest:83 - Appium server stopped
+[INFO ] 2022-01-18 19:24:53.005 com.qa.WebBaseTest:77 - Appium server started
+[INFO ] 2022-01-18 19:25:10.345 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-18 19:25:10.756 com.qa.pages.WebMainPage:25 - Check if amazon logo is displayed
+[ERROR] 2022-01-18 19:25:10.785 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:25:10.790 com.qa.tests.ApiDemoTest:68 - Error in Amazon logo test
+[INFO ] 2022-01-18 19:25:10.805 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-18 19:25:10.807 com.qa.pages.WebMainPage:31 - Enter books value in search bar
+[ERROR] 2022-01-18 19:25:10.808 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:25:10.808 com.qa.WebBaseTest:175 - Unable to perform senkeys for element
+[ERROR] 2022-01-18 19:25:10.809 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:25:10.809 com.qa.WebBaseTest:153 - click action not performed
+[INFO ] 2022-01-18 19:25:10.810 com.qa.pages.WebMainPage:40 - Click on search button
+[INFO ] 2022-01-18 19:25:13.820 com.qa.pages.WebBooksPage:28 - Checking Books title is present or not
+[ERROR] 2022-01-18 19:25:13.820 com.qa.tests.ApiDemoTest:87 - Error in search and verify title test
+[INFO ] 2022-01-18 19:25:13.824 com.qa.tests.ApiDemoTest:53 - Instantiating the page object classes for Amazon.com Website
+[INFO ] 2022-01-18 19:25:13.826 com.qa.pages.WebBooksPage:34 - Scroll to the bottom of page
+[ERROR] 2022-01-18 19:25:13.834 com.qa.WebBaseTest:194 - Unable to perform move to element action
+[INFO ] 2022-01-18 19:25:13.834 com.qa.pages.WebBooksPage:41 - Scroll to the bottom of page
+[ERROR] 2022-01-18 19:25:13.834 com.qa.WebBaseTest:142 - Element not found
+[ERROR] 2022-01-18 19:25:13.834 com.qa.tests.ApiDemoTest:100 - Error in scroll to bottom test
+[INFO ] 2022-01-18 19:25:25.185 com.qa.AppBaseTest:145 - Initializing driver for native app
+[INFO ] 2022-01-18 19:25:25.187 com.qa.AppBaseTest:146 - Opening Api Demo app
+[INFO ] 2022-01-18 19:25:25.188 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 19:25:26.144 com.qa.AppBaseTest:191 - Clicking on Views
+[INFO ] 2022-01-18 19:25:34.458 com.qa.utils.TestUtils:48 - Scrolling down to :WebView3
+[INFO ] 2022-01-18 19:25:35.186 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-18 19:25:35.395 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 19:25:35.987 com.qa.AppBaseTest:191 - Clicking on Views
+[INFO ] 2022-01-18 19:25:37.194 com.qa.AppBaseTest:191 - Click on Drag and Drop option
+[INFO ] 2022-01-18 19:25:38.253 com.qa.pages.DragAndDropPage:29 - Identify element for first circle
+[INFO ] 2022-01-18 19:25:38.253 com.qa.pages.DragAndDropPage:37 - Identify element for second circle
+[INFO ] 2022-01-18 19:25:40.316 com.qa.utils.TestUtils:78 - Perform long press action on the element:Located by By.chained({By.id: drag_dot_1})
+[INFO ] 2022-01-18 19:25:42.245 com.qa.utils.TestUtils:85 - Perform move action to element:Located by By.chained({By.id: drag_dot_2})
+[INFO ] 2022-01-18 19:25:42.246 com.qa.AppBaseTest:224 - get the attribute text
+[INFO ] 2022-01-18 19:25:43.182 com.qa.utils.TestUtils:55 - Clicking on android back button
+[INFO ] 2022-01-18 19:25:43.358 com.qa.tests.ApiDemoTest:52 - Instantiating the page object classes for ApiDemos App
+[INFO ] 2022-01-18 19:25:43.785 com.qa.pages.SecondPage:33 - find element for Expandable lists option
+[INFO ] 2022-01-18 19:25:45.013 com.qa.utils.TestUtils:61 - Perform touch action on the element:Located by By.chained({By.AccessibilityId: Expandable Lists})
+[INFO ] 2022-01-18 19:25:45.099 com.qa.AppBaseTest:191 - Clicking on Custom Adapter option
+[INFO ] 2022-01-18 19:25:46.057 com.qa.pages.CustomAdapterPage:32 - Clicking on Custom Adapter option
+[INFO ] 2022-01-18 19:25:49.820 com.qa.utils.TestUtils:69 - Perform long press action on the element:Located by By.chained({By.xpath: //android.widget.TextView[@text='People Names']})
